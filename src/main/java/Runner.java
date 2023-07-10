@@ -30,16 +30,23 @@ public class Runner {
 
         for (String island : scottishIslands){
             if (island == "Tiree"){
-                System.out.println("Task 1: " + island + " on index "+ scottishIslands.indexOf("Tiree"));
+                System.out.println("Task 2: " + island + " on index "+ scottishIslands.indexOf("Tiree"));
             }
         }
 
-
-
-
 //        3. Add "Islay" after "Jura" and before "Mull"
+
+        scottishIslands.add(2, "Islay");
+        System.out.println("Task 3: "+ scottishIslands);
+
 //        4. Print out the index position of "Skye"
+
+        System.out.println("Task 4: " + scottishIslands.indexOf("Skye"));
+
 //        5. Remove "Tresco" from the list by name
+
+       
+
 //        6. Remove "Arran" from the list by index
 //        7. Print the number of islands in your arraylist
 //        8. Sort the list alphabetically
