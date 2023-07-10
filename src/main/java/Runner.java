@@ -69,18 +69,18 @@ public class Runner {
 
 //        8. Sort the list alphabetically
 
-        System.out.println("Task 8: List before sorted "+ scottishIslands +" List after sorted: ");
+        System.out.println("Task 8: List before sorted: "+ scottishIslands);
         Collections.sort(scottishIslands);
+        System.out.println("List after sorted : " + scottishIslands );
 
 //        9. Print out all the islands using a for loop
 
-        for (String island : scottishIslands){
+        System.out.println("Task 9: ");
 
+        for (int i = 0; i < scottishIslands.size(); i++){
+
+            System.out.println(scottishIslands.get(i));
         }
-
-
-
-        System.out.println(scottishIslands);
 
 //        NUMBERS
         List<Integer> numbers = new ArrayList<>();
