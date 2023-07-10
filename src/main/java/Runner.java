@@ -26,7 +26,14 @@ public class Runner {
         }
 
 //        2. Add "Tiree" to the start of the list
-       
+        scottishIslands.add(0, "Tiree");
+
+        for (String island : scottishIslands){
+            if (island == "Tiree"){
+                System.out.println("Task 1: " + island + " on index "+ scottishIslands.indexOf("Tiree"));
+            }
+        }
+
 
 
 
