@@ -69,8 +69,14 @@ public class Runner {
 
 //        8. Sort the list alphabetically
 
+        System.out.println("Task 8: List before sorted "+ scottishIslands +" List after sorted: ");
+        Collections.sort(scottishIslands);
 
 //        9. Print out all the islands using a for loop
+
+        for (String island : scottishIslands){
+
+        }
 
 
 
