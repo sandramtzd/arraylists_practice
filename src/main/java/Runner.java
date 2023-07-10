@@ -45,7 +45,14 @@ public class Runner {
 
 //        5. Remove "Tresco" from the list by name
 
-       
+        for (String island : scottishIslands){
+            if (island == "Tresco"){
+                scottishIslands.remove(island);
+                System.out.println("Task 5: "+ scottishIslands);
+            }
+        }
+
+
 
 //        6. Remove "Arran" from the list by index
 //        7. Print the number of islands in your arraylist
