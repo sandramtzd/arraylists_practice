@@ -52,11 +52,22 @@ public class Runner {
             }
         }
 
-
-
 //        6. Remove "Arran" from the list by index
+
+        for (String island : scottishIslands){
+            if (island == "Arran"){
+                int arran = scottishIslands.indexOf(island);
+                scottishIslands.remove(arran);
+                System.out.println("Task 6: "+ scottishIslands);
+            }
+        }
+
+
 //        7. Print the number of islands in your arraylist
+
+
 //        8. Sort the list alphabetically
+
 //        9. Print out all the islands using a for loop
 
         System.out.println(scottishIslands);
