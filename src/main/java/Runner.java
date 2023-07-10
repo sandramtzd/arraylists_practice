@@ -14,8 +14,22 @@ public class Runner {
         scottishIslands.add("Arran");
         scottishIslands.add("Tresco");
 
+
 //        1. Add "Coll" to the end of the list
+        scottishIslands.add("Coll");
+        for (String island : scottishIslands){
+
+            if(island.contains("Coll")){
+                System.out.println("Task 1: " + island);
+            }
+
+        }
+
 //        2. Add "Tiree" to the start of the list
+       
+
+
+
 //        3. Add "Islay" after "Jura" and before "Mull"
 //        4. Print out the index position of "Skye"
 //        5. Remove "Tresco" from the list by name
