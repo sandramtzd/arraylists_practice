@@ -65,10 +65,14 @@ public class Runner {
 
 //        7. Print the number of islands in your arraylist
 
+        System.out.println("Task 7: "+ scottishIslands.size());
 
 //        8. Sort the list alphabetically
 
+
 //        9. Print out all the islands using a for loop
+
+
 
         System.out.println(scottishIslands);
 
